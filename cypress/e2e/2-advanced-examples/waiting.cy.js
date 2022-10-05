@@ -14,7 +14,7 @@ context('Waiting', () => {
     cy.get('.wait-input2').type('Wait 1000ms after typing')
     cy.wait(1000)
     cy.get('.wait-input3').type('Wait 1000ms after typing')
-    cy.wait(1000)
+    cy.wait(1500)
   })
 
   it('cy.wait() - wait for a specific route', () => {
